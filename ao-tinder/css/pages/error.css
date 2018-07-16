@@ -1,0 +1,35 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(34, 34, 34);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-title {
+  color: white;
+  font-size: 30px;
+}
+
+.error-subtitle {
+  color: white;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.fa-exclamation-triangle {
+  font-size: 150px;
+  color: rgb(215, 212, 67);
+}
+
+.error-subtitle a {
+  color: rgb(251, 162, 88);
+}

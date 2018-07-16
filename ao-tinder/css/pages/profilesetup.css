@@ -1,0 +1,97 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(43, 43, 43);
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="submit"]:focus,
+input[type="color"]:focus {
+  border-color: #E42E8A;
+  box-shadow: none;
+  outline: none;
+}
+
+.background {
+  width: 100%;
+  height: 100px;
+  background: url(../../images/index-background.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.background h1 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+form {
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+.form-control {
+  background-color: #dfdfdf !important;
+  color: black !important;
+}
+form img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+form img:hover {
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+label {
+  float: left;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  background-color: #dfdfdf;
+  color: black;
+  border: 1px solid white;
+}
+
+.button {
+  padding: 5px;
+  width: 140px;
+  border: 1px solid #E42E8A;
+  color: #E42E8A;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #b9236f;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}

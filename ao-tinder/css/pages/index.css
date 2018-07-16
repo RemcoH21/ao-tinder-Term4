@@ -1,0 +1,193 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="submit"]:focus,
+input[type="color"]:focus {
+  border-color: #E42E8A;
+  box-shadow: none;
+  outline: none;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.81);
+  border-top: 4px solid #E42E8A;
+  width: 100%;
+}
+
+.background {
+  width: 100%;
+  height: 450px;
+  background: url(../../images/index-background.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 4px solid #E42E8A;
+}
+
+
+
+.register {
+  background-color: white;
+  width: 25%;
+  float: right;
+  margin-right: 2rem;
+  border-radius: 10px;
+}
+.register p {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 5px;
+}
+.register form {
+  width: 80%;
+  margin: auto;
+}
+.button {
+  padding: 5px;
+  width: 140px;
+  border: 1px solid #E42E8A;
+  color: #E42E8A;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.register button {
+  padding: 5px;
+  float: right;
+  border: 1px solid #E42E8A;
+  color: #E42E8A;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.register button:hover {
+  background-color: #b9236f;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button:hover {
+  background-color: #b9236f;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+
+#plus-points {
+  text-align: center;
+  padding: 16px;
+  margin: 0;
+}
+#plus-points .col-sm p {
+  margin: 0;
+  font-weight: 500;
+}
+#plus-points .col-sm i {
+  color: #E42E8A;
+}
+
+
+
+.register-info {
+  text-align: center;
+  border-top: 1px solid #E5E5E5;
+  padding: 50px;
+}
+.register-info-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.register-info-subtitle {
+  font-weight: lighter;
+  font-size: 18px;
+}
+.register-info button {
+  padding: 5px;
+  border: 1px solid #E42E8A;
+  color: #E42E8A;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.register-info button:hover {
+  background-color: #b9236f;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+
+#plus-points2 {
+  text-align: center;
+  padding: 70px;
+  background-color: #F9FBFF;
+  border-top: 1px solid #E5E5E5;
+  margin: 0;
+}
+#plus-points2 .col-sm i {
+  color: #E42E8A;
+  font-size: 60px;
+}
+#plus-points2 .col-sm h1 {
+  color: #E42E8A;
+  font-size: 18px;
+  margin-top: 20px;
+}
+#plus-points2 .col-sm p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+
+
+#information {
+  background-color: #131313;
+  text-align: center;
+  padding: 40px;
+  margin: 0;
+}
+#information .col-sm h1 {
+  color: #E42E8A;
+  font-size: 18px;
+}
+#information .col-sm p {
+  font-size: 16px;
+  color: white;
+  font-weight: lighter;
+}
+
+
+
+.copyright {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-color: #0B0B0B;
+  line-height: 10px;
+}
+.copyright a {
+  color: white;
+}
+.copyright a:hover {
+  color: #E42E8A;
+  text-decoration: none;
+}
